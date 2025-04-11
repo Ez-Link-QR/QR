@@ -1,2 +1,2 @@
-# QR
+# Home
 QR Code gernator
