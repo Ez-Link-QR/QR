@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+.navbar {
+    height: 40px;
+    width: 80%;
+    border: 3px whitesmoke;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+#logo {
+    margin-top: -22px;
+}
+.navbar a {
+    text-align: center;
+    align-items: center;
+    margin-top: 11px;
+}
+#one {
+    height: 20px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    background-color: #9B27AF;
+    margin-top: 3px;
+    margin-left: 40px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: -3px;
+}
+
+#two {
+    height: 20px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    background-color: #4d46d0;
+    margin-top: 3px;
+    margin-right: 80px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: -3px;
+}
+.faq{
+    margin-top: 20px;
+    background-color: #9B27AF;
+    background-image: url(article-banner-bg.f9846a72.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-position: center;
+}
+.faq img{
+    height: 300px;
+    width: 100%;
+    margin-top: 80px;
+}
+.faq h1{
+    color: #3E4957;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+.faq p{
+    color: #525f6f;
+    font-size: 20px;
+    margin-left: 50px;
+    font-family: Arial;
+}
+.faqmain{
+    padding-top: 50px;
+    background-color: whitesmoke;
+}
+.faqmain h1{
+    color: #3E4957;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial;
+}  
+#faqfottertext{
+    height: 100%;
+    width: 1225px;
+    border: 3px  whitesmoke;
+    margin-top: 50px;   
+    margin-left: 150px;
+    padding: 10px;    
+}
+.faq-section {
+    height: 60px;
+    width: 70%;
+    border: 3px solid white;
+    background-color: white;;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 150px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    text-align: left;
+}
+.faq-symbol {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    font-size: 20px;
+    color: #3E4957;
+    font-family: Arial;
+    margin-left: 20px;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+.faq-answer {
+    display: none;
+    margin-left: 20px;
+    text-align: left;
+    height: 50px;
+}
+.footer{
+    height: 400px;
+    width: 1225;
+    background-color: #3E4957;
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px  whitesmoke;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#footer1{
+    height: 300px;
+    width: 1225px;
+    margin-top: 55px;
+    border: 3px  whitesmoke;
+}
+#footer1 p{
+    text-align: left;
+    margin-left: 30px;
+    color:  smoke;
+    font-family: Arial;
+    font-size: 18px;
+}
+#footer2{
+    height: 300px;
+    width: 1225px;
+    margin-top: 55px;
+    border: 3px  whitesmoke;
+}
+#footer2 h3{
+    color: white;
+    justify-content: center;
+    text-align: left;
+}
+#footer2 p{
+    text-align: left;
+    color:  smoke;
+    font-family: Arial;
+}
+#footer2 input{
+    height: 40px;
+    width: 350px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+#footer2 a{
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    font-style: bold;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+#footer2 button:hover{
+    cursor: pointer;
+}
+.footercopy{
+    height: 25px;
+    width: 100%;
+    border: 2px solid black;
+    color: #3E4957;
+    text-align: center;
+    font-size: 18px;
+}

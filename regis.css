@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.navbar{
+    height: 40px;
+    width: 80%;
+    border: 3px  whitesmoke;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+#logo{
+    margin-top: -22px;
+}
+.navbar a{
+    text-align: center;
+    align-items: center;
+    margin-top: 11px;
+}
+#one{
+    height: 22px;
+    width: 150px;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    background-color: #9B27AF;
+    margin-top: 3px;
+    margin-left: 40px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3px;
+}
+#two{
+    height: 22px;
+    width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    background-color: #4d46d0;
+    margin-top: 3px;
+    margin-right: 80px;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    border: 3px dotted hsla(278, 74%, 78%, 0.0);;
+    height: 700px;
+    background-color: hsla(278, 74%, 78%, 0.451);
+}
+.main{
+    height: 600px;
+    width: 1000px;
+    margin-left: 250px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px   black;
+    background-image: url(bg\ for\ login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 300px 150px;
+    background-position: top;
+    background-color: #3E4957;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);    
+    background-color: white ;
+}
+#right{
+    height: 400px;
+    width: 450px;
+    margin-top: 100px;
+    border: 3px  solid smoke;
+    padding: 15px;
+}
+#right h1{
+    text-align: left;
+    color: #3E4957;
+    font-family: Arial;
+    font-size: 35px;
+}
+#right p{
+    text-align: left;
+    color: #3E4957;
+    font-family: Arial;
+    font-size: 16px;
+    margin-top: -10px;
+}
+#right input{
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: none;
+    height: 40px;
+    width: 400px;
+    border: 2px solid whitesmoke;
+}
+#rightmiddle input{
+    height: 15px;
+    width: 20px;   
+    font-size: 16px;
+}
+#right button{
+    background-color: #8c16a0;
+    color: white;
+    font-family: Arial;
+    font-style: bold;
+    width: 400px;
+    height: 5%;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#rightmiddle p{
+    text-align: center;
+    color: #3E4957;
+    font-family: Arial;
+    font-size: 16px;
+}
+#left{
+    height: 500px;
+    width: 400px;
+    margin-top: 30px;
+    border: 3px  black;
+    background-color: #3E4957;
+    border-radius: 20px;
+    background-color: white ;
+
+}
+#leftimage{
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+#left h3{
+    text-align: left;
+    color: #3E4957;
+    font-family: Arial;
+    font-size: 25px;
+    padding-left: 25px;
+}
+#left p{
+    text-align: left;
+    color: #8d929a;
+    font-family: Arial;
+    font-size: 16px;
+    padding-left: 55px;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    height: 400px;
+    width: 1225;
+    background-color: #3E4957;
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px  whitesmoke;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#footer1{
+    height: 300px;
+    width: 1225px;
+    margin-top: 55px;
+    border: 3px  whitesmoke;
+
+}
+#footer1 p{
+    text-align: left;
+    margin-left: 30px;
+    color:  smoke;
+    font-family: Arial;
+    font-size: 18px;
+}
+#footer2{
+    height: 300px;
+    width: 1225px;
+    margin-top: 55px;
+    border: 3px  whitesmoke;
+}
+#footer2 h3{
+    color: white;
+    justify-content: center;
+    text-align: left;
+}
+#footer2 p{
+    text-align: left;
+    color:  smoke;
+    font-family: Arial;
+}
+#footer2 input{
+    height: 40px;
+    width: 350px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+#footer2 a{
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    font-style: bold;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+#footer2 button:hover{
+    cursor: pointer;
+
+}
+.footercopy{
+    text-align: center;
+}
