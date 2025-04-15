@@ -1,28 +1,27 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: Arial;
 }
-
-.navbar {
-    height: 20px;
+.navbar{
+    height: 40px;
     width: 80%;
-    border: 3px whitesmoke;
+    border: 3px  whitesmoke;
     margin-left: 150px;
     display: flex;
     justify-content: space-evenly;
     padding: 5px;
 }
-#logo {
+#logo{
     margin-top: -22px;
 }
-.navbar a {
+.navbar a{
     text-align: center;
     align-items: center;
     margin-top: 11px;
 }
-#one {
-    height: 20px;
+#one{
+    height: 22px;
     width: 150px;
     padding: 5px;
     border-radius: 7px;
@@ -32,11 +31,10 @@
     margin-left: 40px;
     align-items: center;
     text-align: center;
-    padding-bottom: -3px;
+    padding-bottom: 3px;
 }
-
-#two {
-    height: 20px;
+#two{
+    height: 22px;
     width: 100px;
     padding: 5px;
     border-radius: 7px;
@@ -46,83 +44,177 @@
     margin-right: 80px;
     align-items: center;
     text-align: center;
-    padding-bottom: -3px;
 }
-.faq{
-    margin-top: 20px;
-    background-color: #9B27AF;
-    background-image: url(article-banner-bg.f9846a72.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
+#maincontainer{
+    height: 600px;
+    border: 3px dotted black;
+   
+    
+}
+#middle{
+    height: 500px;
+    width: 1225px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 20px;
     display: flex;
     justify-content: space-evenly;
-    background-position: center;
 }
-.faq img{
+.homecontainer{
     height: 300px;
-    width: 100%;
-    margin-top: 80px;
-}
-.faq h1{
-    color: #3E4957;
-    font-size: 40px;
+    width: 500px;
+    border: 3px solid black;
     margin-top: 100px;
-    margin-left: 50px;
-    font-family: Arial;
-    text-align: left;
+    
+
 }
-.faq p{
-    color: #525f6f;
+.home{
+    margin: 5px;
+}
+.home input{
+    height: 40px;
+    width: 250px;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+}
+.home button{
+    height: 40px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    font-style: bold;
     font-size: 20px;
-    margin-left: 50px;
-    font-family: Arial;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
 }
-.faqmain{
-    padding-top: 50px;
-    background-color: whitesmoke;
-}
-.faqmain h1{
-    color: #3E4957;
-    font-size: 40px;
-    text-align: center;
-    font-family: Arial;
-}  
-
-h1{
-    text-align: center;
-}
-.accordin{
-    width: 70%;
-    margin:0 auto;
-}
-
-.accordin-item
-{
-    margin: 10px 0;
-}
-
-.accordin-title{
-    font-size: 25px;
-    color: white;
-    background-color: rgb(53, 56, 55);
+.home button:hover{
     cursor: pointer;
-    padding: 8px 0;
-}
-.accordin-content
-{
-    background-color: beige;
-    display: none;
+    background-color: #9B27AF;
 }
 
-.accordin-item.active .accordin-content
-{
-    display: block;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#qrpopup{
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    
 }
+#qrpopup img{
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#qrpopup h3{
+    color: white;
+    margin-top: 20px;
+}   
+#qrpopup p{
+    color: white;
+    margin-top: 20px;
+}
+#qrpopup button{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    font-style: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 130px; 
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer{
     height: 400px;
-    width: 73.5.1%;
+    width: 1225;
     background-color: #3E4957;
     display: flex;
     justify-content: space-evenly;
@@ -132,9 +224,10 @@ h1{
 }
 #footer1{
     height: 300px;
-    width: 1100px;
+    width: 1225px;
     margin-top: 55px;
     border: 3px  whitesmoke;
+
 }
 #footer1 p{
     text-align: left;
@@ -182,15 +275,13 @@ h1{
 }
 #footer2 button:hover{
     cursor: pointer;
+
 }
 .footercopy{
-    height: 25px;
-    width: 99.7%;
-    border: 3px  black;
-    color: #3E4957;
-    text-align: center;
+    font-family: Arial;
     font-size: 18px;
+    text-align: center;
+    color: #3E4957;
+
 }
-
-
 
