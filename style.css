@@ -52,7 +52,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 200.32px;
+    height: 300.32px;
     width: 99.8%;
     padding: 99px 0 118px;
     background-image: url(Main.webp);
@@ -77,20 +77,7 @@ p{
     display: flex;
     justify-content: space-evenly;
 }
-.middle1{
-    height: 300px;
-    width: 1000px;
-    border: 3px doted whitesmoke;
-    margin-top: 20px;
-    background-image: url(article-banner-bg.f9846a72.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: space-around;
-    padding: 50px;
-    border-radius: 10px;
-    
-}
+
 #text{
     color: #3C4858;
     text-align: left;
@@ -99,19 +86,7 @@ p{
 
     
 }
-#text p{
-    text-align: left;
-    font-size: 18px;
-    color: #3E4957;
-    margin-bottom: 10px;
-}
-#text a{
-    background-color: #9B27AF;
-    color: white;
-    padding: 10px;
-    border: 2px solid black;
-    border-radius: 10px;
-}
+
 .steps{
     height: 700px;
     width: 99.8%;
@@ -124,10 +99,11 @@ p{
 .stepbox{
     height: 480px;
     width: 1320px;
-    margin: 50px 50px 50px 80px ;
     display: flex;
     justify-content: space-around;
     padding: 16px 0px;
+    margin-left: 100px;
+    margin-top: 50px;
     
     
 }
@@ -180,7 +156,7 @@ small{
     justify-content: center;
 }
 .moreitems{
-    height: 754px;
+    height: 600px;
     width: 99.8%;
     background-color: #f5f5f5;
     margin-top: -30px;
@@ -198,7 +174,9 @@ small{
     height: 520px;
     width: 1016px;
     border: 3px  whitesmoke;
-    margin: 48px 250px 0px;
+    
+    /* margin: 48px 250px 0px; */
+    margin:  20px auto;
     margin-bottom: -100px;
     
 
@@ -468,6 +446,7 @@ small{
     color: #9B27AF;
     border: 3px solid #9B27AF;
     cursor: pointer;
+    transform: scale();
 }
 #box2:hover{
     color: #9B27AF;

@@ -107,7 +107,8 @@ h1{
     color: white;
     background-color: rgb(53, 56, 55);
     cursor: pointer;
-    padding: 8px 0;
+    padding: 8px 8px;
+
 }
 .accordin-content
 {

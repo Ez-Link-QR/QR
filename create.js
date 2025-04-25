@@ -15,7 +15,7 @@ genbtn.addEventListener("click", () => {
     }
     else {
         const imgurl=url + inp.value;
-        qrimg.setAttribute ('src' , imgurl);
+        qrimg.setAttribute ('src', imgurl);
         setTimeout(() => {
             qrpopup.classList.add("show");
             maincontainer.classList.add("opacity");
@@ -24,22 +24,16 @@ genbtn.addEventListener("click", () => {
     }
 }
 );
-
-
 downloadbtn.addEventListener("click", () => {
     const imgurl = url + inp.value;
     fetch(imgurl)
         .then((response) => response.blob())
         .then((blob) => {
             const link = document.createElement('a');
-            const href = URL.createObjectURL(blob);
-           link.downloade = 'qr.jpg';
+            link.href = URL.createObjectURL(blob);
+           link.download = 'qr.jpg';
            link.click();
            
         })
-    });
-      
-closebtn.addEventListener("click", () => {
-    qrpopup.classList.remove("show");
-    maincontainer.classList.remove("opacity");
-})    
+    });     
+   
